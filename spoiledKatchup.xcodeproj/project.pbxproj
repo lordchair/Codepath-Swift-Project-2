@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257533AB1ADDEC59003676B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533AA1ADDEC59003676B5 /* AppDelegate.swift */; };
+		257533AD1ADDEC59003676B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533AC1ADDEC59003676B5 /* ViewController.swift */; };
+		257533B01ADDEC59003676B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257533AE1ADDEC59003676B5 /* Main.storyboard */; };
+		257533B21ADDEC59003676B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257533B11ADDEC59003676B5 /* Images.xcassets */; };
+		257533B51ADDEC59003676B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257533B31ADDEC59003676B5 /* LaunchScreen.xib */; };
+		257533C11ADDEC59003676B5 /* spoiledKatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533C01ADDEC59003676B5 /* spoiledKatchupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257533BB1ADDEC59003676B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2575339D1ADDEC59003676B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257533A41ADDEC59003676B5;
+			remoteInfo = spoiledKatchup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257533A51ADDEC59003676B5 /* spoiledKatchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spoiledKatchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257533A91ADDEC59003676B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257533AA1ADDEC59003676B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257533AC1ADDEC59003676B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		257533AF1ADDEC59003676B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257533B11ADDEC59003676B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		257533B41ADDEC59003676B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		257533BA1ADDEC59003676B5 /* spoiledKatchupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spoiledKatchupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257533BF1ADDEC59003676B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257533C01ADDEC59003676B5 /* spoiledKatchupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spoiledKatchupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257533A21ADDEC59003676B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257533B71ADDEC59003676B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2575339C1ADDEC59003676B5 = {
+			isa = PBXGroup;
+			children = (
+				257533A71ADDEC59003676B5 /* spoiledKatchup */,
+				257533BD1ADDEC59003676B5 /* spoiledKatchupTests */,
+				257533A61ADDEC59003676B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257533A61ADDEC59003676B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257533A51ADDEC59003676B5 /* spoiledKatchup.app */,
+				257533BA1ADDEC59003676B5 /* spoiledKatchupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257533A71ADDEC59003676B5 /* spoiledKatchup */ = {
+			isa = PBXGroup;
+			children = (
+				257533AA1ADDEC59003676B5 /* AppDelegate.swift */,
+				257533AC1ADDEC59003676B5 /* ViewController.swift */,
+				257533AE1ADDEC59003676B5 /* Main.storyboard */,
+				257533B11ADDEC59003676B5 /* Images.xcassets */,
+				257533B31ADDEC59003676B5 /* LaunchScreen.xib */,
+				257533A81ADDEC59003676B5 /* Supporting Files */,
+			);
+			path = spoiledKatchup;
+			sourceTree = "<group>";
+		};
+		257533A81ADDEC59003676B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257533A91ADDEC59003676B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		257533BD1ADDEC59003676B5 /* spoiledKatchupTests */ = {
+			isa = PBXGroup;
+			children = (
+				257533C01ADDEC59003676B5 /* spoiledKatchupTests.swift */,
+				257533BE1ADDEC59003676B5 /* Supporting Files */,
+			);
+			path = spoiledKatchupTests;
+			sourceTree = "<group>";
+		};
+		257533BE1ADDEC59003676B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257533BF1ADDEC59003676B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257533A41ADDEC59003676B5 /* spoiledKatchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257533C41ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchup" */;
+			buildPhases = (
+				257533A11ADDEC59003676B5 /* Sources */,
+				257533A21ADDEC59003676B5 /* Frameworks */,
+				257533A31ADDEC59003676B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spoiledKatchup;
+			productName = spoiledKatchup;
+			productReference = 257533A51ADDEC59003676B5 /* spoiledKatchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257533B91ADDEC59003676B5 /* spoiledKatchupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257533C71ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchupTests" */;
+			buildPhases = (
+				257533B61ADDEC59003676B5 /* Sources */,
+				257533B71ADDEC59003676B5 /* Frameworks */,
+				257533B81ADDEC59003676B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257533BC1ADDEC59003676B5 /* PBXTargetDependency */,
+			);
+			name = spoiledKatchupTests;
+			productName = spoiledKatchupTests;
+			productReference = 257533BA1ADDEC59003676B5 /* spoiledKatchupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2575339D1ADDEC59003676B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yale Thomas";
+				TargetAttributes = {
+					257533A41ADDEC59003676B5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					257533B91ADDEC59003676B5 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 257533A41ADDEC59003676B5;
+					};
+				};
+			};
+			buildConfigurationList = 257533A01ADDEC59003676B5 /* Build configuration list for PBXProject "spoiledKatchup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2575339C1ADDEC59003676B5;
+			productRefGroup = 257533A61ADDEC59003676B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257533A41ADDEC59003676B5 /* spoiledKatchup */,
+				257533B91ADDEC59003676B5 /* spoiledKatchupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257533A31ADDEC59003676B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257533B01ADDEC59003676B5 /* Main.storyboard in Resources */,
+				257533B51ADDEC59003676B5 /* LaunchScreen.xib in Resources */,
+				257533B21ADDEC59003676B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257533B81ADDEC59003676B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257533A11ADDEC59003676B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257533AD1ADDEC59003676B5 /* ViewController.swift in Sources */,
+				257533AB1ADDEC59003676B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257533B61ADDEC59003676B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257533C11ADDEC59003676B5 /* spoiledKatchupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257533BC1ADDEC59003676B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257533A41ADDEC59003676B5 /* spoiledKatchup */;
+			targetProxy = 257533BB1ADDEC59003676B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257533AE1ADDEC59003676B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257533AF1ADDEC59003676B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		257533B31ADDEC59003676B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257533B41ADDEC59003676B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		257533C21ADDEC59003676B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		257533C31ADDEC59003676B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257533C51ADDEC59003676B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spoiledKatchup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		257533C61ADDEC59003676B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spoiledKatchup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		257533C81ADDEC59003676B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spoiledKatchupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spoiledKatchup.app/spoiledKatchup";
+			};
+			name = Debug;
+		};
+		257533C91ADDEC59003676B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spoiledKatchupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spoiledKatchup.app/spoiledKatchup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257533A01ADDEC59003676B5 /* Build configuration list for PBXProject "spoiledKatchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257533C21ADDEC59003676B5 /* Debug */,
+				257533C31ADDEC59003676B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257533C41ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257533C51ADDEC59003676B5 /* Debug */,
+				257533C61ADDEC59003676B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257533C71ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257533C81ADDEC59003676B5 /* Debug */,
+				257533C91ADDEC59003676B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2575339D1ADDEC59003676B5 /* Project object */;
+}
