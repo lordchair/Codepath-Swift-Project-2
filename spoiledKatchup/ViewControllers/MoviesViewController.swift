@@ -46,7 +46,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let request = NSURLRequest(URL:url!)
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler:{ (response, data, error) in
             var errorValue: NSError? = nil
-            if (errorValue == nil) {
+            if (error == nil) {
                 let dictionary = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &errorValue) as! NSDictionary
                 self.movies = dictionary["movies"] as! NSArray
                 self.tableView.reloadData()
@@ -55,7 +55,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 self.refreshControl.endRefreshing()
             } else {
                 self.errorView.hidden = false
-                
+                self.refreshControl.endRefreshing()
                 SVProgressHUD.dismiss()
             }
 
