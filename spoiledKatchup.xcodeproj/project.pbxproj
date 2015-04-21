@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251194891AE5634500878766 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251194881AE5634500878766 /* DetailTableViewCell.swift */; };
+		257483861ADF362400A43620 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257483851ADF362400A43620 /* MovieDetailViewController.swift */; };
+		257483881ADF370600A43620 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257483871ADF370600A43620 /* MovieCell.swift */; };
 		257533AB1ADDEC59003676B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533AA1ADDEC59003676B5 /* AppDelegate.swift */; };
 		257533AD1ADDEC59003676B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533AC1ADDEC59003676B5 /* ViewController.swift */; };
 		257533B01ADDEC59003676B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257533AE1ADDEC59003676B5 /* Main.storyboard */; };
 		257533B21ADDEC59003676B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257533B11ADDEC59003676B5 /* Images.xcassets */; };
 		257533B51ADDEC59003676B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257533B31ADDEC59003676B5 /* LaunchScreen.xib */; };
 		257533C11ADDEC59003676B5 /* spoiledKatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533C01ADDEC59003676B5 /* spoiledKatchupTests.swift */; };
+		257533CB1ADDEE9B003676B5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257533CA1ADDEE9B003676B5 /* MoviesViewController.swift */; };
+		D0C4684BFCEC65F0732BADC3 /* libPods-spoiledKatchup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6E4D256A71B2C135672E59 /* libPods-spoiledKatchup.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB0CA9A391A3EF473375ED4 /* Pods-spoiledKatchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spoiledKatchup.release.xcconfig"; path = "Pods/Target Support Files/Pods-spoiledKatchup/Pods-spoiledKatchup.release.xcconfig"; sourceTree = "<group>"; };
+		1A6E4D256A71B2C135672E59 /* libPods-spoiledKatchup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spoiledKatchup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251194881AE5634500878766 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewCell.swift; path = ViewControllers/DetailTableViewCell.swift; sourceTree = "<group>"; };
+		257483821ADDFA3300A43620 /* spoiledKatchup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spoiledKatchup-Bridging-Header.h"; sourceTree = "<group>"; };
+		257483851ADF362400A43620 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieDetailViewController.swift; path = ViewControllers/MovieDetailViewController.swift; sourceTree = "<group>"; };
+		257483871ADF370600A43620 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = ViewControllers/MovieCell.swift; sourceTree = "<group>"; };
 		257533A51ADDEC59003676B5 /* spoiledKatchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spoiledKatchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257533A91ADDEC59003676B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257533AA1ADDEC59003676B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,8 @@
 		257533BA1ADDEC59003676B5 /* spoiledKatchupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spoiledKatchupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257533BF1ADDEC59003676B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257533C01ADDEC59003676B5 /* spoiledKatchupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spoiledKatchupTests.swift; sourceTree = "<group>"; };
+		257533CA1ADDEE9B003676B5 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ViewControllers/MoviesViewController.swift; sourceTree = "<group>"; };
+		A1B53CC6526EB14007A5E695 /* Pods-spoiledKatchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spoiledKatchup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spoiledKatchup/Pods-spoiledKatchup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C4684BFCEC65F0732BADC3 /* libPods-spoiledKatchup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,9 @@
 				257533A71ADDEC59003676B5 /* spoiledKatchup */,
 				257533BD1ADDEC59003676B5 /* spoiledKatchupTests */,
 				257533A61ADDEC59003676B5 /* Products */,
+				6A9FEBB4D7C81DB484C32CBB /* Pods */,
+				4B9C3426C8E0792105D80166 /* Frameworks */,
+				257483821ADDFA3300A43620 /* spoiledKatchup-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +97,7 @@
 				257533AA1ADDEC59003676B5 /* AppDelegate.swift */,
 				257533AC1ADDEC59003676B5 /* ViewController.swift */,
 				257533AE1ADDEC59003676B5 /* Main.storyboard */,
+				257533CC1ADDF166003676B5 /* ViewControllers */,
 				257533B11ADDEC59003676B5 /* Images.xcassets */,
 				257533B31ADDEC59003676B5 /* LaunchScreen.xib */,
 				257533A81ADDEC59003676B5 /* Supporting Files */,
@@ -112,6 +130,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		257533CC1ADDF166003676B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				251194881AE5634500878766 /* DetailTableViewCell.swift */,
+				257483871ADF370600A43620 /* MovieCell.swift */,
+				257533CA1ADDEE9B003676B5 /* MoviesViewController.swift */,
+				257483851ADF362400A43620 /* MovieDetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B9C3426C8E0792105D80166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E4D256A71B2C135672E59 /* libPods-spoiledKatchup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A9FEBB4D7C81DB484C32CBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B53CC6526EB14007A5E695 /* Pods-spoiledKatchup.debug.xcconfig */,
+				0FB0CA9A391A3EF473375ED4 /* Pods-spoiledKatchup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 257533C41ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchup" */;
 			buildPhases = (
+				1815BC4A141CE0C0A975DA6E /* Check Pods Manifest.lock */,
 				257533A11ADDEC59003676B5 /* Sources */,
 				257533A21ADDEC59003676B5 /* Frameworks */,
 				257533A31ADDEC59003676B5 /* Resources */,
+				D145E7FBEA112FCF7EFD7489 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +255,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1815BC4A141CE0C0A975DA6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D145E7FBEA112FCF7EFD7489 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spoiledKatchup/Pods-spoiledKatchup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		257533A11ADDEC59003676B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251194891AE5634500878766 /* DetailTableViewCell.swift in Sources */,
 				257533AD1ADDEC59003676B5 /* ViewController.swift in Sources */,
+				257483861ADF362400A43620 /* MovieDetailViewController.swift in Sources */,
 				257533AB1ADDEC59003676B5 /* AppDelegate.swift in Sources */,
+				257483881ADF370600A43620 /* MovieCell.swift in Sources */,
+				257533CB1ADDEE9B003676B5 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +419,28 @@
 		};
 		257533C51ADDEC59003676B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B53CC6526EB14007A5E695 /* Pods-spoiledKatchup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = spoiledKatchup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "spoiledKatchup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		257533C61ADDEC59003676B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB0CA9A391A3EF473375ED4 /* Pods-spoiledKatchup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = spoiledKatchup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "spoiledKatchup-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +497,7 @@
 				257533C61ADDEC59003676B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257533C71ADDEC59003676B5 /* Build configuration list for PBXNativeTarget "spoiledKatchupTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +506,7 @@
 				257533C91ADDEC59003676B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
